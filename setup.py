@@ -122,8 +122,8 @@ setup(
     # setup_requires=['pypandoc<1.2.0', 'setuptools-markdown'],
     setup_requires=['setuptools-markdown'],
     install_requires=[
-        "ansible<2.10;python_version<='3.6'"
-        "ansible<5;python_version>='3.8'",
+        "ansible<'2.10';python_version<='3.6'"
+        "ansible<'5';python_version>='3.8'",
         'pytest'],
     cmdclass={
         'test': ToxTestCommand,
